@@ -1,4 +1,10 @@
-# 📝 Penjelasan Implementasi Fitur: Praktikum 13 & 14
+**Nama:** Afdhal Agislam
+
+**NIM:** 312410445  
+
+**Kelas:** TI 24 A5
+
+#  Penjelasan Implementasi Fitur: Praktikum 13 & 14
 
 Dokumen ini menjelaskan teknis implementasi fitur **Pagination (Paging)** dan **Searching (Pencarian)** pada aplikasi Manajemen Data Barang berbasis PHP OOP.
 
@@ -19,7 +25,7 @@ Dokumen ini menjelaskan teknis implementasi fitur **Pagination (Paging)** dan **
         * *Contoh:* Halaman 1 offset 0, Halaman 2 offset 3.
     * **Navigasi:** Membuat tombol **Previous** dan **Next** yang dinamis.
 
-### 💡 Alur Kerja
+###  Alur Kerja
 User membuka halaman -> Sistem menghitung total data -> Sistem memotong data menggunakan Query `LIMIT offset, jumlah` -> Data ditampilkan sebagian sesuai halaman yang dipilih.
 
 ---
@@ -27,7 +33,7 @@ User membuka halaman -> Sistem menghitung total data -> Sistem memotong data men
 ## 2. Praktikum 14: Searching (Pencarian Data)
 **Tujuan:** Memudahkan pengguna mencari data barang spesifik berdasarkan nama barang.
 
-### 🔧 Perubahan Kode
+###  Perubahan Kode
 1.  **Update Class Database**:
     * Memodifikasi method `total()` dan `getLimit()` agar bisa menerima parameter tambahan berupa query `WHERE`.
     * Query SQL berubah dinamis. Jika ada pencarian, SQL menambahkan: `WHERE nama LIKE '%keyword%'`.
@@ -41,12 +47,12 @@ User membuka halaman -> Sistem menghitung total data -> Sistem memotong data men
     * Pada link pagination, ditambahkan parameter `&q=...`.
     * *Contoh URL:* `index.php?page=barang&hal=2&q=samsung`
 
-### 💡 Alur Kerja
+###  Alur Kerja
 User mengetik kata kunci -> Klik Cari -> URL berubah membawa parameter `?q=kata_kunci` -> Sistem menangkap `$_GET['q']` -> Query database difilter menggunakan `LIKE` -> Data yang cocok ditampilkan (tetap dengan pagination).
 
 ---
 
-## 📸 Hasil Implementasi
+##  Hasil Implementasi
 
 * **Pagination:** Tombol navigasi muncul di sebelah kiri bawah tabel.
 * **Searching:** Kotak pencarian ada di atas tabel. Hasil pencarian otomatis ter-filter dan ter-paging.

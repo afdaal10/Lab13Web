@@ -7,6 +7,7 @@
 **Kelas:** TI 24 A5
 
 
+
 ## 1. Praktikum 13: Pagination (Pembagian Halaman)
 **Tujuan:** Membatasi jumlah data yang tampil agar tidak menumpuk di satu halaman, serta membaginya menjadi beberapa halaman (Page 1, 2, dst).
 

@@ -1,12 +1,12 @@
+# Praktikum 13 & 14
+
 **Nama:** Afdhal Agislam
 
 **NIM:** 312410445  
 
 **Kelas:** TI 24 A5
 
-#  Penjelasan Implementasi Fitur: Praktikum 13 & 14
-
-Dokumen ini menjelaskan teknis implementasi fitur **Pagination (Paging)** dan **Searching (Pencarian)** pada aplikasi Manajemen Data Barang berbasis PHP OOP.
+Praktikum ini menjelaskan teknis implementasi fitur **Pagination (Paging)** dan **Searching (Pencarian)** pada aplikasi Manajemen Data Barang berbasis PHP OOP.
 
 ---
 

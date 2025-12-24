@@ -56,5 +56,11 @@ User mengetik kata kunci -> Klik Cari -> URL berubah membawa parameter `?q=kata_
 
 ![Screenshot hasil](output.png)
 
-* **Pagination:** Tombol navigasi muncul di sebelah kiri bawah tabel.
+### Tampilan Pagination
+
+![Screenshot](pagination1.png)
+
+![Screenshot](pagination2.png)
+
+
 * **Searching:** Kotak pencarian ada di atas tabel. Hasil pencarian otomatis ter-filter dan ter-paging.

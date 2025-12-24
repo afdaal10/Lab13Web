@@ -56,11 +56,18 @@ User mengetik kata kunci -> Klik Cari -> URL berubah membawa parameter `?q=kata_
 
 ![Screenshot hasil](output.png)
 
-### Tampilan Pagination
-
-![Screenshot](pagination1.png)
+### Tampilan Fitur Pagination
 
 ![Screenshot](pagination2.png)
 
+![Screenshot](pagination1.png)
 
-* **Searching:** Kotak pencarian ada di atas tabel. Hasil pencarian otomatis ter-filter dan ter-paging.
+### Tampilan Fitur Pencarian Data
+
+![Screenshot](pencarian_data1.png)
+
+![Screenshot](pencarian_data2.png)
+
+
+
+

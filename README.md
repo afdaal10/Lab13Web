@@ -6,12 +6,12 @@
 
 **Kelas:** TI 24 A5
 
-```
+
 
 ## 1. Praktikum 13: Pagination (Pembagian Halaman)
 **Tujuan:** Membatasi jumlah data yang tampil agar tidak menumpuk di satu halaman, serta membaginya menjadi beberapa halaman (Page 1, 2, dst).
 
-### 🔧 Perubahan Kode
+###  Perubahan Kode
 1.  **Class Database (`class/database.php`)**:
     * Menambahkan method `total()` untuk menghitung jumlah total baris data di tabel.
     * Menambahkan method `getLimit()` untuk mengambil data dengan batasan jumlah (`LIMIT`) dan urutan awal (`OFFSET`).
